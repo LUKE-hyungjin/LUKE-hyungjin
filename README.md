@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Luke (Hyungjin Lee)
 
-### Full Stack Developer | AI/ML Engineer | Robotics Enthusiast
+### Full Stack Developer | AI/ML, Robotics Enthusiast
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-lukedev.info-FFB800?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lukedev.info)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%ED%98%95%EC%A7%84-%EC%9D%B4-ab1a29247/)
