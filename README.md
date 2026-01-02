@@ -2,7 +2,8 @@
 
 # 👋 Hi, I'm Luke (Hyungjin Lee)
 
-### Defense Tech Specialist | Data Engineer | Mechanical Background
+### Industrial AI Engineer | Mechanical & ML Specialist
+#### *Data-Driven Engineering for Physical Systems*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-lukedev.info-FFB800?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lukedev.info)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%ED%98%95%EC%A7%84-%EC%9D%B4-ab1a29247/)
@@ -15,40 +16,45 @@
 
 ## 🚀 About Me
 
-> **"Bridging the gap between Physical Operations and Digital Intelligence."**
+> **"Combining mechanical intuition with AI data analytics."**
 
-I am a **Forward-Thinking Engineer** combining a strong foundation in **Mechanical Engineering** with modern **Data Science & Software capabilities**.
+I am an **Industrial AI Engineer** who understands **Mechanical Systems** and optimizes them using **Data & AI technologies**.
 
-Currently serving in the **ROK Air Force**, I specialize in solving complex physical problems using digital tools. Unlike typical developers, I understand the **"physics"** behind the data—whether it's aircraft maintenance logs, sensor vibrations, or supply chain logistics. I build systems that don't just look good, but **work in the field.**
+With a strong foundation in Mechanical Engineering, I deeply understand hardware principles. Through my service as a Software Engineer in the Air Force and my academic research, I have honed the skills to digitize physical systems. Beyond simple coding, I focus on solving critical industrial challenges such as **Predictive Maintenance, Process Optimization, and Design Automation** using Machine Learning.
+
+My goal is to translate "physical problems" from the field into "data language" to create tangible value.
 
 ```typescript
 const luke = {
-  role: "Software Engineer @ ROK Air Force",
-  domain: ["Defense Tech", "Mechanical Engineering", "Data Analytics"],
+  name: "Hyungjin Lee (Luke)",
+  role: "Machine Learning Engineer (Manufacturing/Robotics)",
   
-  currentFocus: [
-    "Project IronClad (Sortie Gen. Rate Prediction)",
-    "Parametric Design Automation (Fusion 360 API)",
-    "Palantir Foundry & Ontology"
-  ],
+  // ✅ Core Values: Convergence of Mechanics & AI
+  coreValues: ["Physical AI", "Data-Driven Engineering", "Digital Twin"],
+  
+  background: {
+    major: "Mechanical Engineering",
+    experience: "Software Engineer (Ex-ROK Air Force)"
+  },
+  
 
-  // Yes, I can also build full-stack apps to visualize this data!
-  auxiliarySkills: ["Next.js", "System Design", "DevOps"] 
+  // Capable of Full-Stack Development for Visualization
+  techStack: ["Python", "TensorFlow", "Fusion 360", "Next.js"] 
 };
 
 ```
 
 ---
 
-## 💼 Professional Experience
+## 💼 Timeline
 
 ```mermaid
 timeline
-    title Domain Expertise Journey
-    2018-2022 : BS Mechanical Engineering<br/>(Physical System Analysis)
-    2020-2022 : Undergraduate Researcher @ CAE Lab<br/>(Simulation & Modeling)
-    2022-Present : Software Engineer @ Air Force<br/>(Defense Data & Operations)
-    Future : Forward Deployed Engineer<br/>(Impact Driven)
+    title Engineering Journey
+    2018-2022 : BS Mechanical Engineering<br/>(Dynamics & Mechanism Design)
+    2020-2022 : Undergraduate Researcher @ CAE Lab<br/>(Autonomous Driving Sim & ROS)
+    2022-202X : Software Engineer @ Air Force<br/>(Large-scale Resource Data Analysis)
+    NOW : 🚀 Industrial AI Engineer<br/>(Open for ML/Data Roles)
 
 ```
 
@@ -56,44 +62,48 @@ timeline
 
 ## 🛠️ Tech Stack
 
-### 🧠 Data Engineering & AI (Primary)
+### 🧠 Industrial AI & Data Analysis (Primary)
 
-### ⚙️ Domain Engineering & Simulation
+> *Extracting insights from data.*
 
-### 📊 Visualization & Interfaces (Secondary)
+### ⚙️ Engineering & Simulation
 
-> I leverage web technologies to build dashboards and deliver insights to end-users.
+> *Building digital twins and engineering environments.*
+
+### 📊 Visualization & Dashboard
+
+> *Visualizing engineering data on the web.*
 
 ---
 
-## 🎯 Impact & Projects
+## 🎯 Featured Projects
 
 <table>
 <tr>
 <td width="50%">
 
-### 🛡️ [Project IronClad (WIP)](https://www.google.com/search?q=)
+### 🤖 [Fusion 360 URDF Generation](https://github.com/RO-AD/fusion2urdf_ros2cpp)
+**Robot Simulation Tool**
 
-**Defense Resource Optimization**
+- 🎤 Presented at **Autodesk Webinar**
+- 🔧 Fusion 360 API integration
+- 🎮 Unity & NVIDIA Omniverse compatible
+- 📹 [Watch Demo](https://www.youtube.com/watch?v=n4WcBF8ReGQ)
 
-* **Goal:** Predict aircraft sortie generation rates based on supply chain variables.
-* **Tech:** Synthetic Data Gen, Random Forest, Python.
-* **Impact:** Simulating resource bottlenecks in wartime scenarios using ML models.
-
-`Python` `Data Analysis` `Defense Tech`
+`Fusion360` `Python` `Unity` `URDF` `ROS`
 
 </td>
 <td width="50%">
 
-### 🤖 [Fusion 360 to ROS Automation](https://github.com/RO-AD/fusion2urdf_ros2cpp)
+### 🛡️ Defense Robotics Competition
+**Robotic Arm & Vehicle Development**
 
-**Parametric Design Pipeline**
+- 🏆 National Defense Robotics Competition
+- 🔩 Full mechanical design in Fusion360
+- 🤖 ROS & Gazebo simulation
+- 👥 Founded & led club **RO:AD**
 
-* **Goal:** Automate the conversion of CAD designs to Robot Simulation (URDF).
-* **Impact:** Reduced modeling-to-sim time by 60% for robotics researchers.
-* 🎤 Presented at **Autodesk Webinar**.
-
-`Fusion 360 API` `Python` `Automation`
+`ROS` `Gazebo` `URDF` `Python`
 
 </td>
 </tr>
@@ -102,27 +112,27 @@ timeline
 <td width="50%">
 
 ### 🧠 Robotic Arm Fault Diagnosis
+**ML-Based Fault Detection**
 
-**Predictive Maintenance Model**
+- 🏆 **Grand Prize** - Capstone Design
+- 📊 Deep Learning for diagnostics
+- 🎓 Graduation Thesis Project
+- 🔬 Mechanical + AI integration
 
-* **Goal:** Detect mechanical failures using vibration sensor data.
-* **Method:** Deep Learning (CNN) applied to time-series sensor data.
-* 🏆 **Grand Prize** - Capstone Design.
-
-`TensorFlow` `Signal Processing` `Predictive Maint.`
+`TensorFlow` `Machine Learning` `Python`
 
 </td>
 <td width="50%">
 
-### 🛡️ Defense Robotics Platform
+### 🚗 Unity ML Autonomous Driving
+**Inter-City Self-Driving Simulation**
 
-**Unmanned Ground Vehicle (UGV)**
+- 🎮 Unity ML-Agent environment
+- 🚙 Autonomous vehicle simulation
+- 📄 Conference paper (2nd author)
+- 🏅 Advanced to finals
 
-* **Role:** Lead Engineer for Mechanical Design & ROS Integration.
-* **Tech:** Full CAD design, Sensor integration, Autonomous navigation.
-* 🏆 National Defense Robotics Competition Finalist.
-
-`ROS` `Gazebo` `Mechatronics`
+`Unity` `ML-Agent` `Deep Learning`
 
 </td>
 </tr>
@@ -130,29 +140,19 @@ timeline
 
 ---
 
-## 📊 GitHub Stats
+## 🏆 Achievements
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=LUKE-hyungjin&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=FFB800&icon_color=FFB800" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LUKE-hyungjin&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=FFB800" />
-
-</div>
-
----
-
-## 🏆 Certifications & Awards
-
-* **TensorFlow Developer Certificate** (Google) - *Data Capability*
+* **TensorFlow Developer Certificate** (Google) - *Deep Learning Capability*
+* **Autodesk Fusion 360 Webinar Speaker** - *CAD API Expertise*
 * **Grand Prize, Capstone Design Competition** - *Engineering Excellence*
-* **Autodesk Webinar Speaker** - *Fusion 360 API Expert*
 * **Engineer Information Processing** - *CS Fundamentals*
 
 ---
 
 ## 📫 Let's Connect!
 
-I am always open to discussing **Defense Tech, Palantir Foundry, and Parametric Design**.
+I am actively looking for opportunities as a **Machine Learning / Data Engineer** with a focus on Mechanical Domains.
+I am always open to discussing **Smart Factory, Robotics AI, and Engineering Data Analysis**.
 
 <div align="center">
 
@@ -160,6 +160,6 @@ I am always open to discussing **Defense Tech, Palantir Foundry, and Parametric 
 
 <div align="center">
 
-### "Transforming Data into Physical Reality"
+### "Engineering the Physical World with Digital Intelligence"
 
 </div>
