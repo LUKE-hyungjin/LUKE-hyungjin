@@ -41,12 +41,15 @@ const luke = {
 ```mermaid
 timeline
     title Engineering Journey
-    2018-2022 : BS Mechanical Engineering @ Kyonggi Univ.
-              : Undergraduate Researcher @ CAE Lab
-              : Co-founder @ Robotics club RO:AD
-    2022 : Autodesk Webinar Speaker<br/>(Fusion 360 → URDF plugin)
-    2022-2025 : SW Engineering Officer @ ROK Air Force<br/>(Chief of Staff Award, Hackathon Grand Prize)
-    2025-NOW : MakinaRocks<br/>Data Manager → Forward Deployed Engineer (Vision)
+    2018-2022 : BS Mechanical Engineering, Kyonggi Univ.
+              : Undergraduate Researcher, CAE Lab
+              : Co-founder, Robotics club RO:AD
+    2022 : Autodesk Webinar Speaker
+         : Fusion 360 to URDF plugin
+    2022-2025 : SW Engineering Officer, ROK Air Force
+              : Chief of Staff Award, Hackathon Grand Prize
+    2025-NOW : MakinaRocks
+             : Data Manager to Forward Deployed Engineer (Vision)
 ```
 
 ---
@@ -88,100 +91,181 @@ timeline
 
 ---
 
-## 🎯 Featured Projects
+## 🎯 Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+> Click a project to expand it. More detail on [hyungjin-lee.pages.dev](https://hyungjin-lee.pages.dev).
 
-### 🦾 [Foxglove Robot Arm](https://github.com/LUKE-hyungjin/foxglove_robot_arm)
-**Pick & place, debugged in Foxglove**
+### 🤖 Robotics & Foxglove
 
-<img src="https://raw.githubusercontent.com/LUKE-hyungjin/foxglove_robot_arm/main/docs/images/foxglove_debug.png" width="100%" alt="Foxglove robot arm debug layout"/>
+<details>
+<summary><b>🦾 Foxglove Robot Arm — pick & place debugging</b> · 2026</summary>
+<br/>
 
-- 🤖 My own arm model (RO:AD era, inspired by Boston Dynamics Spot's arm)
-- 🔁 Fusion 360 → URDF → Blender scene → Gazebo / ROS 2 Jazzy → Foxglove
-- 📈 Cameras, motor torque, joint tracking error in one layout
-- ✅ `docker compose up` · 19 end-to-end checks
+<img src="https://raw.githubusercontent.com/LUKE-hyungjin/foxglove_robot_arm/main/docs/images/foxglove_debug.png" width="720" alt="Foxglove robot arm debug layout"/>
 
-`ROS 2` `Gazebo` `Foxglove` `URDF` `Docker`
+- My own arm model from the RO:AD club, inspired by the arm on Boston Dynamics' Spot
+- Fusion 360 → URDF → Blender scene → Gazebo / ROS 2 Jazzy → Foxglove
+- Cameras, motor torque and joint tracking error in one Foxglove layout
+- `docker compose up` · 19 end-to-end checks
 
-</td>
-<td width="50%" valign="top">
+`ROS 2` `Gazebo` `Foxglove` `URDF` `Docker` · [Repository](https://github.com/LUKE-hyungjin/foxglove_robot_arm)
 
-### 🚗 [Foxglove Robot Car Tutorial](https://github.com/LUKE-hyungjin/foxglove_basic_robot_car)
-**8-step tutorial for new Foxglove users**
+</details>
+<details>
+<summary><b>🚗 Foxglove Robot Car — step-by-step tutorial</b> · 2026</summary>
+<br/>
 
-<img src="https://raw.githubusercontent.com/LUKE-hyungjin/foxglove_basic_robot_car/main/docs/images/foxglove-debug.png" width="100%" alt="Foxglove robot car debug layout"/>
+<img src="https://raw.githubusercontent.com/LUKE-hyungjin/foxglove_basic_robot_car/main/docs/images/foxglove-debug.png" width="720" alt="Foxglove robot car debug layout"/>
 
-- 🛠️ Two-wheeled robot I modeled in Fusion 360
-- 🗺️ Arena built with a Blender script
-- 📡 Debug lidar, wheel speed error, odometry vs. ground truth
-- 📚 Every step's output in the repo — start anywhere
+- Two-wheeled robot I modeled in Fusion 360, in an arena built with a Blender script
+- 8-step tutorial: Fusion export → URDF → Gazebo → debug lidar and wheels in Foxglove
+- Every step's output is in the repo, so readers can start at any step
 
-`ROS 2` `Gazebo` `Foxglove` `Blender`
+`ROS 2` `Gazebo` `Foxglove` `Blender` · [Repository](https://github.com/LUKE-hyungjin/foxglove_basic_robot_car)
 
-</td>
-</tr>
+</details>
+<details>
+<summary><b>🔧 Fusion 360 URDF Generation — Autodesk Webinar</b> · 2022</summary>
+<br/>
 
-<tr>
-<td width="50%" valign="top">
+- Presented at the **Autodesk Korea Webinar** · [Watch](https://www.youtube.com/watch?v=n4WcBF8ReGQ)
+- Exports joints, mass / inertia / center of mass, colors and materials from Fusion 360
+- Works with Unity, NVIDIA Omniverse (Isaac Sim) and ROS 2
 
-### 🔧 [Fusion 360 → URDF](https://github.com/LUKE-hyungjin/fusion360_urdf_script)
-**CAD-to-simulation plugin**
+`Fusion 360 API` `Python` `URDF` · [fusion360_urdf_script](https://github.com/LUKE-hyungjin/fusion360_urdf_script) · [RO-AD/fusion2urdf_ros2cpp](https://github.com/RO-AD/fusion2urdf_ros2cpp) · [Details](https://hyungjin-lee.pages.dev/projects/fusion360-urdf)
 
-- 🎤 Presented at **Autodesk Korea Webinar** (2022) · [Watch](https://www.youtube.com/watch?v=n4WcBF8ReGQ)
-- ⚖️ Joints, mass / inertia, colors & materials exported automatically
-- 🎮 Works with Unity, NVIDIA Omniverse (Isaac Sim), ROS 2
-- 🔗 Original: [RO-AD/fusion2urdf_ros2cpp](https://github.com/RO-AD/fusion2urdf_ros2cpp)
+</details>
+<details>
+<summary><b>🛡️ National Defense Robotics Competition — RO:AD</b> · 2021</summary>
+<br/>
 
-`Fusion 360 API` `Python` `URDF`
+- Designed a tracked vehicle and robotic arm in Fusion 360
+- URDF → Gazebo simulation → ROS integration
+- Co-founded and systematized the club RO:AD · [Video](https://www.youtube.com/watch?v=NY-tPyoulmk&t=60s)
 
-</td>
-<td width="50%" valign="top">
+`ROS` `Gazebo` `URDF` `Fusion 360` · [Details](https://hyungjin-lee.pages.dev/projects/national-defense-robotics)
 
-### ✈️ [Deep-FEM UAV Wing](https://github.com/LUKE-hyungjin/Deep-FEM-UAV-Wing)
-**GNN surrogate model for FEM**
+</details>
+<details>
+<summary><b>🚘 Automated Vehicle Accident Reporting — RO:AD project lead</b> · 2022</summary>
+<br/>
 
-- 🔁 Blender → Gmsh → CalculiX → PyG (GraphSAGE)
-- 📊 200 parametric wing cases
-- ⚡ ~600x faster than FEM
-- 🖥️ [Live demo on Hugging Face](https://huggingface.co/spaces/hyungjin12/deep-fem-uav-wing)
+- Led the club's semi-annual project: accident detection with FLEX pressure sensors in bumpers
+- Taught new members ROS, CAD modeling and software basics
 
-`PyTorch Geometric` `FEM` `Gradio`
+`ROS` `Sensors` `Python` · [Details](https://hyungjin-lee.pages.dev/projects/automated-accident-reporting)
 
-</td>
-</tr>
+</details>
+<details>
+<summary><b>🦿 F-ARM — robotic arm fault diagnosis (Capstone Grand Prize)</b> · 2021</summary>
+<br/>
 
-<tr>
-<td width="50%" valign="top">
+- Deep learning fault diagnosis for a robotic arm from vibration sensor data (CNN / LSTM)
+- **Grand Prize**, Capstone Design Competition · graduation thesis
 
-### 🧪 Genesis AI for Military RL
-**Physics-based RL research**
+`TensorFlow` `Keras` `Sensor Data` · [Details](https://hyungjin-lee.pages.dev/projects/robotic-arm-fault-diagnosis)
 
-- ⚡ 10–80x faster RL training vs. Unity ML-Agents
-- 🧮 4,096 parallel environments on GPU
-- 📄 Presented at 2025 KIMST conference
-- 🖱️ [Interactive Genesis GUI](https://github.com/LUKE-hyungjin/genesis_ai_gui)
+</details>
 
-`Genesis` `Reinforcement Learning` `Python`
+### 🛡️ ROK Air Force (2022–2025)
 
-</td>
-<td width="50%" valign="top">
+<details>
+<summary><b>📦 Wartime Resource Analysis Program</b> · 2024</summary>
+<br/>
 
-### 🛡️ Defense Robotics Competition
-**Tracked robot & robotic arm (RO:AD)**
+- Automated wartime supply-requirement calculation (personnel, aircraft, fuel, supplies, spare parts)
+- Months of manual calculation → minutes; used for actual resource allocation
+- Built with Python + KNIME for non-developer staff on a closed military network
 
-- 🏁 National Defense Robotics Competition (2021)
-- 🔩 Full mechanical design in Fusion 360
-- 🤖 URDF → Gazebo simulation → ROS integration
-- 👥 Co-founded RO:AD and taught members ROS
+`Python` `KNIME` `Data Analysis` · [Details](https://hyungjin-lee.pages.dev/projects/wartime-resource-analysis)
 
-`ROS` `Gazebo` `URDF` `Fusion 360`
+</details>
+<details>
+<summary><b>🏆 Wargame Simulation Automation — Hackathon Grand Prize</b> · 2025</summary>
+<br/>
 
-</td>
-</tr>
-</table>
+- Python macro for automated target-data input — 90% less manual time
+- **Air Force Chief of Staff Award (Grand Prize)**, 6th Air Force Hackathon
+
+`Python` · [Repository](https://github.com/LUKE-hyungjin/macro) · [Details](https://hyungjin-lee.pages.dev/projects/wargame-simulation)
+
+</details>
+<details>
+<summary><b>📡 Radar Detection Range Analysis</b> · 2025</summary>
+<br/>
+
+- Detection-range analysis program for air-defense planning
+
+`Python` · [Details](https://hyungjin-lee.pages.dev/projects/radar-systems)
+
+</details>
+<details>
+<summary><b>🧪 Genesis AI for Military Reinforcement Learning</b> · 2025</summary>
+<br/>
+
+- 10–80x faster RL training than Unity ML-Agents; up to 65x in collision-heavy scenes
+- 4,096 parallel environments on GPU
+- Presented at the 2025 Korea Military Science and Technology conference
+
+`Genesis` `Reinforcement Learning` `Python` · [Genesis GUI](https://github.com/LUKE-hyungjin/genesis_ai_gui) · [Details](https://hyungjin-lee.pages.dev/projects/genesis-ai-military-research)
+
+</details>
+<details>
+<summary><b>🎓 Air Force AI Education Program</b> · 2024</summary>
+<br/>
+
+- Designed and taught an AI course for Air Force personnel: RL fundamentals, PPO, hyperparameter tuning
+- Practical AI workflows with Cursor, RAG and Obsidian; sim-to-real gaps for military AI
+
+`Reinforcement Learning` `PPO` `Education` · [Details](https://hyungjin-lee.pages.dev/projects/ai-education-program)
+
+</details>
+
+### 🔬 Research & Simulation
+
+<details>
+<summary><b>✈️ Deep-FEM UAV Wing — GNN surrogate for FEM</b> · 2026</summary>
+<br/>
+
+- Blender → Gmsh → CalculiX → PyTorch Geometric (GraphSAGE)
+- 200 parametric wing cases; ~600x faster than FEM
+- [Live demo on Hugging Face](https://huggingface.co/spaces/hyungjin12/deep-fem-uav-wing)
+
+`PyTorch Geometric` `FEM` `Gradio` · [Repository](https://github.com/LUKE-hyungjin/Deep-FEM-UAV-Wing)
+
+</details>
+<details>
+<summary><b>🚦 Unity ML-Agents — autonomous driving & drone delivery</b> · 2021</summary>
+<br/>
+
+- Crossroad autonomous-driving environment (Gangnam Station, BlenderGIS) and RLKR drone-delivery challenge
+- KIISE conference paper, 2nd author — advanced to the finals
+
+`Unity` `ML-Agents` `PPO` · [Details](https://hyungjin-lee.pages.dev/projects/unity-ml-agent-projects)
+
+</details>
+
+### ⚙️ Engineering
+
+<details>
+<summary><b>🔩 Semiconductor Wafer-Transfer Robot (SD Solution intern)</b> · 2021</summary>
+<br/>
+
+- Improved Z-axis instability of a wafer-transfer robot with regression on sensor data
+
+`Python` `Machine Learning` · [Details](https://hyungjin-lee.pages.dev/projects/semiconductor-zig-analysis)
+
+</details>
+<details>
+<summary><b>🏎️ University Self-Built Car Competition (KURC)</b> · 2019</summary>
+<br/>
+
+- Led engine overhaul (125cc) and vehicle wiring; torsional stiffness analysis in ANSYS
+- **Acceleration Prize**, Yeungnam University Self-Built Car Competition
+
+`Fusion 360` `ANSYS` · [Details](https://hyungjin-lee.pages.dev/projects/self-built-car-competition)
+
+</details>
 
 ---
 
