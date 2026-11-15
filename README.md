@@ -95,35 +95,8 @@ timeline
 
 > Click a project to expand it. More detail on [hyungjin-lee.pages.dev](https://hyungjin-lee.pages.dev).
 
-### 🤖 Robotics & Foxglove
+### 🤖 Robotics
 
-<details>
-<summary><b>🦾 Foxglove Robot Arm — pick & place debugging</b> · 2026</summary>
-<br/>
-
-<img src="https://raw.githubusercontent.com/LUKE-hyungjin/foxglove_robot_arm/main/docs/images/foxglove_debug.png" width="720" alt="Foxglove robot arm debug layout"/>
-
-- My own arm model from the RO:AD club, inspired by the arm on Boston Dynamics' Spot
-- Fusion 360 → URDF → Blender scene → Gazebo / ROS 2 Jazzy → Foxglove
-- Cameras, motor torque and joint tracking error in one Foxglove layout
-- `docker compose up` · 19 end-to-end checks
-
-`ROS 2` `Gazebo` `Foxglove` `URDF` `Docker` · [Repository](https://github.com/LUKE-hyungjin/foxglove_robot_arm)
-
-</details>
-<details>
-<summary><b>🚗 Foxglove Robot Car — step-by-step tutorial</b> · 2026</summary>
-<br/>
-
-<img src="https://raw.githubusercontent.com/LUKE-hyungjin/foxglove_basic_robot_car/main/docs/images/foxglove-debug.png" width="720" alt="Foxglove robot car debug layout"/>
-
-- Two-wheeled robot I modeled in Fusion 360, in an arena built with a Blender script
-- 8-step tutorial: Fusion export → URDF → Gazebo → debug lidar and wheels in Foxglove
-- Every step's output is in the repo, so readers can start at any step
-
-`ROS 2` `Gazebo` `Foxglove` `Blender` · [Repository](https://github.com/LUKE-hyungjin/foxglove_basic_robot_car)
-
-</details>
 <details>
 <summary><b>🔧 Fusion 360 URDF Generation — Autodesk Webinar</b> · 2022</summary>
 <br/>
@@ -164,6 +137,33 @@ timeline
 - **Grand Prize**, Capstone Design Competition · graduation thesis
 
 `TensorFlow` `Keras` `Sensor Data` · [Details](https://hyungjin-lee.pages.dev/projects/robotic-arm-fault-diagnosis)
+
+</details>
+<details>
+<summary><b>🦾 Robot Arm Pick & Place — ROS 2 / Gazebo simulation</b> · 2026</summary>
+<br/>
+
+<img src="https://raw.githubusercontent.com/LUKE-hyungjin/foxglove_robot_arm/main/docs/images/foxglove_debug.png" width="720" alt="Foxglove robot arm debug layout"/>
+
+- My own arm model from the RO:AD club, inspired by the arm on Boston Dynamics' Spot
+- Fusion 360 → URDF → Blender scene → Gazebo / ROS 2 Jazzy → Foxglove
+- Cameras, motor torque and joint tracking error in one Foxglove layout
+- `docker compose up` · 19 end-to-end checks
+
+`ROS 2` `Gazebo` `Foxglove` `URDF` `Docker` · [Repository](https://github.com/LUKE-hyungjin/foxglove_robot_arm)
+
+</details>
+<details>
+<summary><b>🚗 Two-Wheeled Robot Car — simulation tutorial</b> · 2026</summary>
+<br/>
+
+<img src="https://raw.githubusercontent.com/LUKE-hyungjin/foxglove_basic_robot_car/main/docs/images/foxglove-debug.png" width="720" alt="Foxglove robot car debug layout"/>
+
+- Two-wheeled robot I modeled in Fusion 360, in an arena built with a Blender script
+- 8-step tutorial: Fusion export → URDF → Gazebo → debug lidar and wheels in Foxglove
+- Every step's output is in the repo, so readers can start at any step
+
+`ROS 2` `Gazebo` `Foxglove` `Blender` · [Repository](https://github.com/LUKE-hyungjin/foxglove_basic_robot_car)
 
 </details>
 
